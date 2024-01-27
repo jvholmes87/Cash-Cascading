@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <title>Cash Cascading</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to CSS file -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.3.2/html2canvas.min.js" defer></script>
+    <script src="script.js" defer></script> <!-- Link to JavaScript file -->
+</head>
+<body>
+    <main class="container">
+        <header>
+            <h1>Cash Cascading</h1>
+            <p>Coded by <a href="https://twitter.com/jasonvholmes" target="_blank" rel="noopener noreferrer">@jasonvholmes on X</a></p>
+        </header>
+        <section class="description">
+            <p>
+                Discover the potential of exponential growth with my Cash Cascading tool. Follow all the steps by starting with your initial sum to observe its daily doubling over 30 days. This tool effectively demonstrates the principle of compound growth, showcasing the substantial growth small investments can achieve over time.
+            </p>
+        </section>
+        <section class="calculator">
+            <input type="number" id="initialAmount" placeholder="#1 - Enter Initial Amount" min="0.01" step="0.01">
+            <button id="cascadeBtn">#2 - Cascade</button>
+            <div id="results"></div>
+            <button id="screenshotBtn">#3 - Take Screenshot of Your Cascade</button>
+            <button id="shareTwitter">#4 - Share Your Cascade on X</button>
+        </section>
+    </main>
+</body>
+</html>
